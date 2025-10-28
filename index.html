@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Разговорник</title>
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+  <header>
+    <h1>Разговорник</h1>
+    <button id="toggle-theme">🌙</button>
+  </header>
+
+  <main>
+    <div class="mobile-menu">
+      <a href="history.html" class="menu-button">История</a>
+      <a href="culture.html" class="menu-button">Культура</a>
+      <a href="sights.html" class="menu-button">Достопримечательности</a>
+      <a href="phrasebook.html" class="menu-button">Фразы</a>
+    </div>
+  </main>
+
+  <script>
+    const themeBtn = document.getElementById("toggle-theme");
+    themeBtn.addEventListener("click", () => {
+      document.body.classList.toggle("dark");
+      themeBtn.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Достопримечательности Татарстана</title>
+<link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+<header>
+  <h1>Достопримечательности</h1>
+  <button id="toggle-theme">🌙</button>
+</header>
+
+<div class="mobile-menu">
+  <a href="index.html" class="menu-button">Назад</a>
+  <button class="menu-button" data-topic="kazan">Казань</button>
+  <button class="menu-button" data-topic="bolgar">Болгар</button>
+  <button class="menu-button" data-topic="sviyazhsk">Свияжск</button>
+  <button class="menu-button" data-topic="temples">Храмы и мечети</button>
+  <button class="menu-button" data-topic="parks">Парки и музеи</button>
+</div>
+
+<section class="phrases-list" id="phrases-container"></section>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const themeBtn = document.getElementById("toggle-theme");
+  const phrasesContainer = document.getElementById("phrases-container");
+  const buttons = document.querySelectorAll(".menu-button");
+
+  themeBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+    themeBtn.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
+  });
+
+  const data = {
+    kazan: [
+      { title:"Кремль", text:"Главная историческая крепость города." },
+      { title:"Благовещенский собор", text:"Архитектурный памятник XVI века." }
+    ],
+    bolgar: [
+      { title:"Музей-заповедник", text:"Памятник Волжской Булгарии и исламской культуры." },
+      { title:"Мавзолей Шейха Садыка", text:"Известное историческое строение." }
+    ],
+    sviyazhsk: [
+      { title:"Остров-град", text:"Исторический город на острове с монастырями." },
+      { title:"Успенский собор", text:"Старинная церковь XVI века." }
+    ],
+    temples: [
+      { title:"Мечеть Кул Шариф", text:"Главная мечеть Казанского Кремля." },
+      { title:"Храмы Свияжска", text:"Архитектурные памятники разных эпох." }
+    ],
+    parks: [
+      { title:"Национальный парк 'Свияжские холмы'", text:"Природная зона для отдыха и туризма." },
+      { title:"Татарстанский музей изобразительных искусств", text:"Коллекции живописи и графики." }
+    ]
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  function showTopic(topic) {
+    const phrases = data[topic];
+    phrasesContainer.innerHTML = "";
+    if(!phrases || phrases.length === 0) { phrasesContainer.innerHTML = "<p>Ничего не найдено.</p>"; return; }
+    phrases.forEach(phrase => {
+      const card = document.createElement("div");
+      card.classList.add("phrase-card");
+      card.innerHTML = `<strong>${phrase.title}</strong><p>${phrase.text}</p>`;
+      phrasesContainer.appendChild(card);
+      observer.observe(card);
+    });
+  }
+
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => showTopic(btn.dataset.topic));
+  });
+});
+</script>
+</body>
+</html>

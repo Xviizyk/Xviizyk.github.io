@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Культура Татарстана</title>
+<link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+<header>
+  <h1>Культура Татарстана</h1>
+  <button id="toggle-theme">🌙</button>
+</header>
+
+<div class="mobile-menu">
+  <a href="index.html" class="menu-button">Назад</a>
+  <button class="menu-button" data-topic="cuisine">Кухня</button>
+  <button class="menu-button" data-topic="crafts">Народные ремёсла</button>
+  <button class="menu-button" data-topic="folklore">Фольклор</button>
+  <button class="menu-button" data-topic="holidays">Праздники</button>
+  <button class="menu-button" data-topic="modern">Современное искусство</button>
+</div>
+
+<section class="phrases-list" id="phrases-container"></section>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const themeBtn = document.getElementById("toggle-theme");
+  const phrasesContainer = document.getElementById("phrases-container");
+  const buttons = document.querySelectorAll(".menu-button");
+
+  themeBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+    themeBtn.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
+  });
+
+  const data = {
+    cuisine: [
+      { title:"Эчпочмак", text:"Традиционное татарское блюдо с мясом, картофелем и луком." },
+      { title:"Чак-чак", text:"Сладость из теста и мёда, популярная на праздниках." },
+      { title:"Кыстыбый", text:"Постное тесто с картофелем или творогом." }
+    ],
+    crafts: [
+      { title:"Резьба по дереву", text:"Традиционное ремесло с народными узорами." },
+      { title:"Вышивка", text:"Национальные орнаменты на одежде и тканях." },
+      { title:"Тюбетейки", text:"Традиционные головные уборы с узорами." }
+    ],
+    folklore: [
+      { title:"Народные песни", text:"Песни с инструментами курай и др." },
+      { title:"Танцы", text:"Традиционные танцы с коллективным исполнением." }
+    ],
+    holidays: [
+      { title:"Сабантуй", text:"Главный летний праздник с конкурсами и песнями." },
+      { title:"Навруз", text:"Праздник весны с традиционными блюдами." }
+    ],
+    modern: [
+      { title:"Театр оперы и балета", text:"Современные постановки и классические спектакли." },
+      { title:"Современные художники", text:"Развитие живописи и искусства в XXI веке." }
+    ]
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  function showTopic(topic) {
+    const phrases = data[topic];
+    phrasesContainer.innerHTML = "";
+    if(!phrases || phrases.length === 0) { phrasesContainer.innerHTML = "<p>Ничего не найдено.</p>"; return; }
+    phrases.forEach(phrase => {
+      const card = document.createElement("div");
+      card.classList.add("phrase-card");
+      card.innerHTML = `<strong>${phrase.title}</strong><p>${phrase.text}</p>`;
+      phrasesContainer.appendChild(card);
+      observer.observe(card);
+    });
+  }
+
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => showTopic(btn.dataset.topic));
+  });
+});
+</script>
+</body>
+</html>

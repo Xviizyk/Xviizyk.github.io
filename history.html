@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>История Татарстана</title>
+<link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+<header>
+  <h1>История Татарстана</h1>
+  <button id="toggle-theme">🌙</button>
+</header>
+
+<div class="mobile-menu">
+  <a href="index.html" class="menu-button">Назад</a>
+  <button class="menu-button" data-topic="centuryX">X век</button>
+  <button class="menu-button" data-topic="centuryXIII">XIII век</button>
+  <button class="menu-button" data-topic="centuryXVI">XVI век</button>
+  <button class="menu-button" data-topic="soviet">Советский период</button>
+  <button class="menu-button" data-topic="present">Настоящее время</button>
+</div>
+
+<section class="phrases-list" id="phrases-container"></section>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const themeBtn = document.getElementById("toggle-theme");
+  const phrasesContainer = document.getElementById("phrases-container");
+  const buttons = document.querySelectorAll(".menu-button");
+
+  themeBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+    themeBtn.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
+  });
+
+  const data = {
+    centuryX: [
+      { title:"Зарождение булгарского государства", text:"Формирование Волжской Булгарии, ремёсла, торговля." },
+      { title:"Развитие торговли", text:"Активная торговля с Византией, Восточной Европой и Средней Азией." },
+      { title:"Принятие ислама", text:"Часть населения приняла ислам, что повлияло на культуру и право." }
+    ],
+    centuryXIII: [
+      { title:"Монголо-татарская Орда", text:"Приход монгольских завоевателей, политические изменения." },
+      { title:"Культурное развитие", text:"Сохранение булгарской культуры, ремёсел и исламских традиций." },
+      { title:"Строительство крепостей", text:"Возведение укреплений для защиты городов." }
+    ],
+    centuryXVI: [
+      { title:"Казанское ханство", text:"История образования Казанского ханства, борьба с Московским княжеством." },
+      { title:"Присоединение Казани к России", text:"В 1552 году Казань была завоёвана Иваном Грозным." },
+      { title:"Религиозные изменения", text:"Распространение православия при сохранении исламских общин." }
+    ],
+    soviet: [
+      { title:"Советский период", text:"Развитие промышленности, сельского хозяйства и культуры в XX веке." },
+      { title:"Образование", text:"Создание школ, университетов и научных институтов." },
+      { title:"Экономические реформы", text:"Индустриализация и крупные предприятия." }
+    ],
+    present: [
+      { title:"Промышленное развитие", text:"В XXI веке Татарстан активно строит новые предприятия и внедряет современные технологии, включая IT и инновации." },
+      { title:"Культурная жизнь", text:"Фестивали, театральные постановки и выставки делают культурную жизнь республики разнообразной и насыщенной." },
+      { title:"Сохранение традиций", text:"Регион сохраняет национальные традиции, сочетая их с современными формами искусства и образования." }
+    ]
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  function showTopic(topic) {
+    const phrases = data[topic];
+    phrasesContainer.innerHTML = "";
+    if(!phrases || phrases.length === 0) { phrasesContainer.innerHTML = "<p>Ничего не найдено.</p>"; return; }
+    phrases.forEach(phrase => {
+      const card = document.createElement("div");
+      card.classList.add("phrase-card");
+      card.innerHTML = `<strong>${phrase.title}</strong><p>${phrase.text}</p>`;
+      phrasesContainer.appendChild(card);
+      observer.observe(card);
+    });
+  }
+
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => showTopic(btn.dataset.topic));
+  });
+});
+</script>
+</body>
+</html>
