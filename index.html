@@ -1,32 +1,72 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Разговорник</title>
+  <title>Phrasebook and Guide to Tatarstan</title>
   <link rel="stylesheet" href="css/index.css" />
 </head>
 <body>
   <header>
-    <h1>Разговорник</h1>
+    <h1 id="page-title">Phrasebook and Guide</h1>
     <button id="toggle-theme">🌙</button>
   </header>
 
-  <main>
-    <div class="mobile-menu">
-      <a href="history.html" class="menu-button">История</a>
-      <a href="culture.html" class="menu-button">Культура</a>
-      <a href="sights.html" class="menu-button">Достопримечательности</a>
-      <a href="phrasebook.html" class="menu-button">Фразы</a>
-    </div>
+  <main id="app-container">
+    
+    <section id="home-view" class="view active">
+      <div class="mobile-menu">
+        <button class="menu-button" data-view="history-view">History</button>
+        <button class="menu-button" data-view="culture-view">Culture</button>
+        <button class="menu-button" data-view="sights-view">Sights</button>
+        <button class="menu-button" data-view="phrasebook-view">Phrases</button>
+      </div>
+    </section>
+
+    <section id="phrasebook-view" class="view" style="display:none;">
+      <input type="text" id="search-input" placeholder="🔍 Search for a phrase..." />
+      <nav id="phrasebook-topics" class="mobile-menu"></nav>
+      <section id="phrases-container" class="phrases-list"></section>
+    </section>
+    
+    <section id="sights-view" class="view" style="display:none;">
+      <div class="mobile-menu">
+        <button class="menu-button back-to-home">Back</button>
+        <button class="menu-button topic-btn" data-topic-category="sights" data-topic-name="kazan">Kazan</button>
+        <button class="menu-button topic-btn" data-topic-category="sights" data-topic-name="bolgar">Bolgar</button>
+        <button class="menu-button topic-btn" data-topic-category="sights" data-topic-name="sviyazhsk">Sviyazhsk</button>
+        <button class="menu-button topic-btn" data-topic-category="sights" data-topic-name="temples">Temples and mosques</button>
+        <button class="menu-button topic-btn" data-topic-category="sights" data-topic-name="parks">Parks and museums</button>
+      </div>
+      <section id="sights-container" class="phrases-list"></section>
+    </section>
+
+    <section id="culture-view" class="view" style="display:none;">
+      <div class="mobile-menu">
+        <button class="menu-button back-to-home">Back</button>
+        <button class="menu-button topic-btn" data-topic-category="culture" data-topic-name="cuisine">Cuisine</button>
+        <button class="menu-button topic-btn" data-topic-category="culture" data-topic-name="crafts">Folk Crafts</button>
+        <button class="menu-button topic-btn" data-topic-category="culture" data-topic-name="folklore">Folklore</button>
+        <button class="menu-button topic-btn" data-topic-category="culture" data-topic-name="holidays">Holidays</button>
+        <button class="menu-button topic-btn" data-topic-category="culture" data-topic-name="modern">Modern Art</button>
+      </div>
+      <section id="culture-container" class="phrases-list"></section>
+    </section>
+
+    <section id="history-view" class="view" style="display:none;">
+      <div class="mobile-menu">
+        <button class="menu-button back-to-home">Back</button>
+        <button class="menu-button topic-btn" data-topic-category="history" data-topic-name="centuryX">X Century</button>
+        <button class="menu-button topic-btn" data-topic-category="history" data-topic-name="centuryXIII">XIII Century</button>
+        <button class="menu-button topic-btn" data-topic-category="history" data-topic-name="centuryXVI">XVI Century</button>
+        <button class="menu-button topic-btn" data-topic-category="history" data-topic-name="soviet">Soviet Period</button>
+        <button class="menu-button topic-btn" data-topic-category="history" data-topic-name="present">Present Day</button>
+      </div>
+      <section id="history-container" class="phrases-list"></section>
+    </section>
+
   </main>
 
-  <script>
-    const themeBtn = document.getElementById("toggle-theme");
-    themeBtn.addEventListener("click", () => {
-      document.body.classList.toggle("dark");
-      themeBtn.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
-    });
-  </script>
+  <script src="javascript/index.js"></script>
 </body>
 </html>
