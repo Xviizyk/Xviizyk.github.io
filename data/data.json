@@ -1,0 +1,1381 @@
+{
+    "sights": {
+        "kazan": [
+            { "title":"Kremlin", "text":"The main historical fortress of the city." },
+            { "title":"Annunciation Cathedral", "text":"An architectural monument of the 16th century." }
+        ],
+        "bolgar": [
+            { "title":"Museum-Reserve", "text":"Monument of Volga Bulgaria and Islamic culture." },
+            { "title":"Sheikh Sadyk Mausoleum", "text":"A famous historical building." }
+        ],
+        "sviyazhsk": [
+            { "title":"Island-town", "text":"Historical island town with monasteries." },
+            { "title":"Assumption Cathedral", "text":"An ancient 16th-century church." }
+        ],
+        "temples": [
+            { "title":"Kul Sharif Mosque", "text":"The main mosque of the Kazan Kremlin." },
+            { "title":"Sviyazhsk Churches", "text":"Architectural monuments from different eras." }
+        ],
+        "parks": [
+            { "title":"Sviyazhsky Kholmy National Park", "text":"A nature area for recreation and tourism." },
+            { "title":"Tatarstan Museum of Fine Arts", "text":"Collections of painting and graphics." }
+        ]
+    },
+    "culture": {
+        "cuisine": [
+            { "title":"Echpochmak", "text":"Traditional Tatar dish with meat, potatoes, and onion." },
+            { "title":"Chak-chak", "text":"Sweet made of dough and honey, popular on holidays." },
+            { "title":"Kystyby", "text":"Unleavened dough with potatoes or cottage cheese." }
+        ],
+        "crafts": [
+            { "title":"Wood Carving", "text":"Traditional craft with folk patterns." },
+            { "title":"Embroidery", "text":"National ornaments on clothing and fabrics." },
+            { "title":"Tubeteykas", "text":"Traditional patterned headwear." }
+        ],
+        "folklore": [
+            { "title":"Folk Songs", "text":"Songs with kurai and other instruments." },
+            { "title":"Dances", "text":"Traditional dances performed collectively." }
+        ],
+        "holidays": [
+            { "title":"Sabantuy", "text":"The main summer holiday with contests and songs." },
+            { "title":"Nawruz", "text":"Spring holiday with traditional dishes." }
+        ],
+        "modern": [
+            { "title":"Opera and Ballet Theatre", "text":"Modern productions and classical performances." },
+            { "title":"Contemporary Artists", "text":"Development of painting and art in the 21st century." }
+        ]
+    },
+    "history": {
+        "centuryX": [
+            { "title":"The Rise of the Bulgar State", "text":"Formation of Volga Bulgaria, crafts, trade." },
+            { "title":"Development of Trade", "text":"Active trade with Byzantium, Eastern Europe, and Central Asia." },
+            { "title":"Adoption of Islam", "text":"A part of the population adopted Islam, which influenced culture and law." }
+        ],
+        "centuryXIII": [
+            { "title":"Mongol-Tatar Horde", "text":"Arrival of Mongol conquerors, political changes." },
+            { "title":"Cultural Development", "text":"Preservation of Bulgar culture, crafts, and Islamic traditions." },
+            { "title":"Construction of Fortresses", "text":"Erection of fortifications to protect cities." }
+        ],
+        "centuryXVI": [
+            { "title":"Kazan Khanate", "text":"History of the formation of the Kazan Khanate, struggle with the Moscow principality." },
+            { "title":"Annexation of Kazan to Russia", "text":"In 1552, Kazan was conquered by Ivan the Terrible." },
+            { "title":"Religious Changes", "text":"Spread of Orthodoxy while preserving Islamic communities." }
+        ],
+        "soviet": [
+            { "title":"Soviet Period", "text":"Development of industry, agriculture, and culture in the 20th century." },
+            { "title":"Education", "text":"Creation of schools, universities, and scientific institutes." },
+            { "title":"Economic Reforms", "text":"Industrialization and large enterprises." }
+        ],
+        "present": [
+            { "title":"Industrial Development", "text":"In the 21st century, Tatarstan actively builds new enterprises and implements modern technologies, including IT and innovations." },
+            { "title":"Cultural Life", "text":"Festivals, theatrical performances, and exhibitions make the republic's cultural life diverse and rich." },
+            { "title":"Preservation of Traditions", "text":"The region preserves national traditions, combining them with modern forms of art and education." }
+        ]
+    },
+    "phrases": {
+        "Greetings and appeals": [
+            {
+                "English": "Hello!",
+                "Tatar": "Исәнмесез!",
+                "Russian": "Здравствуйте!",
+                "EnglishTranscripciya": "[həʹləʋ]",
+                "TatarTranscripciya": "[eesén-me-sez]",
+                "RussianTranscripciya": "[zdrá-stvui-ti]"
+            },
+            {
+                "English": "Hi!",
+                "Tatar": "Сәлам!",
+                "Russian": "Привет!",
+                "EnglishTranscripciya": "[haɪ]",
+                "TatarTranscripciya": "[Se-lám]",
+                "RussianTranscripciya": "[pree-viet]"
+            },
+            {
+                "English": "Good morning!",
+                "Tatar": "Хәерле иртә!",
+                "Russian": "Доброе утро!",
+                "EnglishTranscripciya": "[ɡʊd ˈmɔːnɪŋ]",
+                "TatarTranscripciya": "[hey-еr-lé eer-té]",
+                "RussianTranscripciya": "[dóbraye oótra]"
+            },
+            {
+                "English": "Good afternoon!",
+                "Tatar": "Хәерле көн!",
+                "Russian": "Добрый день!",
+                "EnglishTranscripciya": "[ɡʊd ˈɑːftəˈnuːn]",
+                "TatarTranscripciya": "[hey-er-lé kyon]",
+                "RussianTranscripciya": "[dób-ryi dien']"
+            },
+            {
+                "English": "Good evening!",
+                "Tatar": "Хәерле кич!",
+                "Russian": "Добрый вечер",
+                "EnglishTranscripciya": "[ɡʊd ˈiːvnɪŋ]",
+                "TatarTranscripciya": "[hey-er-lé kich]",
+                "RussianTranscripciya": "[dób-ryi vié-cher]"
+            },
+            {
+                "English": "How are you?",
+                "Tatar": "Хәлләрегез ничек?",
+                "Russian": "Как ваши дела?",
+                "EnglishTranscripciya": "[haʊ ɑː juː]",
+                "TatarTranscripciya": "[he-lé-re-gez neé-chek]",
+                "RussianTranscripciya": "[kak vá-shy dye-lá]"
+            },
+            {
+                "English": "How are you?",
+                "Tatar": "Хэллэр ничек?",
+                "Russian": "Как твои дела?",
+                "EnglishTranscripciya": "[haʊ ɑː juː]",
+                "TatarTranscripciya": "[he-lér neé-chek]",
+                "RussianTranscripciya": "[kak tvo-eé dye-lá]"
+            },
+            {
+                "English": "Thank you!",
+                "Tatar": "Рәхмәт!",
+                "Russian": "Спасибо!",
+                "EnglishTranscripciya": "[θæŋk juː]",
+                "TatarTranscripciya": "[reh-met]",
+                "RussianTranscripciya": "[spa-seé-ba]"
+            },
+            {
+                "English": "Good.",
+                "Tatar": "Әйбәт!",
+                "Russian": "Хорошо!",
+                "EnglishTranscripciya": "[ɡʊd]",
+                "TatarTranscripciya": "[ei-bet]",
+                "RussianTranscripciya": "[ha-ra-shó]"
+            },
+            {
+                "English": "Not bad.",
+                "Tatar": "Начар түгел",
+                "Russian": "Неплохо.",
+                "EnglishTranscripciya": "[nɒt bæd]",
+                "TatarTranscripciya": "[na-chár too-gel]",
+                "RussianTranscripciya": "[nye-pló-ha]"
+            },
+            {
+                "English": "Bye!",
+                "Tatar": "Хуш!",
+                "Russian": "Пока!",
+                "EnglishTranscripciya": "[baɪ]",
+                "TatarTranscripciya": "[hoosh]",
+                "RussianTranscripciya": "[pa-ká]"
+            },
+            {
+                "English": "Goodbye!",
+                "Tatar": "Сау булыгыз!",
+                "Russian": "До свидания!",
+                "EnglishTranscripciya": "[ɡʊd baɪ]",
+                "TatarTranscripciya": "[sau boo-ly-gýz]",
+                "RussianTranscripciya": "[da svee-dá-nee-ya]"
+            },
+            {
+                "English": "See you tomorrow!",
+                "Tatar": "Иртәгегә кадәр!",
+                "Russian": "Увидимся завтра!",
+                "EnglishTranscripciya": "[siː juː təˈmɒrəʊ]",
+                "TatarTranscripciya": "[eer-te-ge-ge ka-dér]",
+                "RussianTranscripciya": "[da záf-tra]"
+            },
+            {
+                "English": "Good luck!",
+                "Tatar": "Уңышлар сезгә!",
+                "Russian": "Удачи вам!",
+                "EnglishTranscripciya": "[ɡʊd lʌk]",
+                "TatarTranscripciya": "[oo-nysh-lár sez-gé]",
+                "RussianTranscripciya": "[oo-dá-chee vam]"
+            },
+            {
+                "English": "Have a good trip!",
+                "Tatar": "Хәерле юл!",
+                "Russian": "Счастливого пути!",
+                "EnglishTranscripciya": "[hæv ə ɡʊd trɪp]",
+                "TatarTranscripciya": "[hey-er-lé yul]",
+                "RussianTranscripciya": "[schas-leé-va-va poo-teé]"
+            },
+            {
+                "English": "Good night!",
+                "Tatar": "Тыныч йокы!",
+                "Russian": "Спокойной ночи!",
+                "EnglishTranscripciya": "[ɡʊd naɪt]",
+                "TatarTranscripciya": "[ty-nýsch io-ký]",
+                "RussianTranscripciya": "[spa-kóy-noy nó-chee]"
+            },
+            {
+                "English": "I agree.",
+                "Tatar": "Мин риза",
+                "Russian": "Я соглас -ен, -на.",
+                "EnglishTranscripciya": "[aɪ əˈɡriː]",
+                "TatarTranscripciya": "[min ree-zá]",
+                "RussianTranscripciya": "[sag-lá-syen (masc.), sag-lás-na (fem.)]"
+            },
+            {
+                "English": "What is your name?",
+                "Tatar": "Сезнең исемегез ничек?",
+                "Russian": "Как вас зовут?",
+                "EnglishTranscripciya": "[wɒt ɪz jɔː neɪm]",
+                "TatarTranscripciya": "[sez-nén ee-se-mé-gez neé-chek]",
+                "RussianTranscripciya": "[kak vas za-voót]"
+            },
+            {
+                "English": "What is your name?",
+                "Tatar": "Синең исемең ничек?",
+                "Russian": "Как тебя зовут?",
+                "EnglishTranscripciya": "[wɒt ɪz jɔː neɪm]",
+                "TatarTranscripciya": "[see-nén ee-se-mén neé-chek]",
+                "RussianTranscripciya": "[kak tye-byá za-voót]"
+            },
+            {
+                "English": "My name is…",
+                "Tatar": "Минем исемем…",
+                "Russian": "Меня зовут…",
+                "EnglishTranscripciya": "[maɪ neɪm ɪz...]",
+                "TatarTranscripciya": "[mee-nem ee-se-mem]",
+                "RussianTranscripciya": "[mye-nyá za- voot]"
+            },
+            {
+                "English": "Where do you live?",
+                "Tatar": "Сез кайда яшисез?",
+                "Russian": "Вы где живете?",
+                "EnglishTranscripciya": "[weə duː juː lɪv]",
+                "TatarTranscripciya": "[sez kai-dá ya-sheé-sez]",
+                "RussianTranscripciya": "[gdye vy zhee-yuó-ti]"
+            },
+            {
+                "English": "Where do you live?",
+                "Tatar": "Син кайда яшисең?",
+                "Russian": "Ты где живешь?",
+                "EnglishTranscripciya": "[weə duː juː lɪv]",
+                "TatarTranscripciya": "[sin kai-dá ya-sheé-sen]",
+                "RussianTranscripciya": "[gdye ty zhee-vyósh]"
+            },
+            {
+                "English": "I live in Kazan (Moscow).",
+                "Tatar": "Мин Казанда (Мәскәүдә) яшим.",
+                "Russian": "Я живу в Казани (Москве)",
+                "EnglishTranscripciya": "[aɪ lɪv ɪn kəˈzæn (ˈmɒskəʊ)]",
+                "TatarTranscripciya": "[meen ka-zan-dá (mes-keu-dé) ya-sheém]",
+                "RussianTranscripciya": "[ya v ka-zá-nee (mask-vié) zhee-voó]"
+            },
+            {
+                "English": "Where do you work?",
+                "Tatar": "Сез кайда эшлисез?",
+                "Russian": "Где вы работаете?",
+                "EnglishTranscripciya": "[weə duː juː wɜːk]",
+                "TatarTranscripciya": "[sez kai-dá esh-leé-sez]",
+                "RussianTranscripciya": "[gdye vy ra-bó-ta-ye-t'e]"
+            },
+            {
+                "English": "Where do you work?",
+                "Tatar": "Син кайда эшлисең?",
+                "Russian": "Где ты работаешь?",
+                "EnglishTranscripciya": "[weə duː juː wɜːk]",
+                "TatarTranscripciya": "[seen kai-dá esh-leé-sen]",
+                "RussianTranscripciya": "[gdye ty ra-bó-ta-yesh]"
+            },
+            {
+                "English": "I work…",
+                "Tatar": "Мин … эшлим.",
+                "Russian": "Я работаю…",
+                "EnglishTranscripciya": "[aɪ wɜːk...]",
+                "TatarTranscripciya": "[meen....esh-leém]",
+                "RussianTranscripciya": "[ya ra-bó-ta-yu...]"
+            },
+            {
+                "English": "…at the shop.",
+                "Tatar": "...кибеттә...",
+                "Russian": "…в магазине",
+                "EnglishTranscripciya": "[æt ðə ʃɒp]",
+                "TatarTranscripciya": "[kee-be-tté]",
+                "RussianTranscripciya": "[v ma-ga-zee-n'e]"
+            },
+            {
+                "English": "…at school.",
+                "Tatar": "...мәктәптә...",
+                "Russian": "…в школе",
+                "EnglishTranscripciya": "[æt skuːl]",
+                "TatarTranscripciya": "[mek-tep-té]",
+                "RussianTranscripciya": "[v shkó-l'e]"
+            },
+            {
+                "English": "…at the office.",
+                "Tatar": "...офиста...",
+                "Russian": "…в офисе",
+                "EnglishTranscripciya": "[æt ði ˈɒfɪs]",
+                "TatarTranscripciya": "[ófis-ta]",
+                "RussianTranscripciya": "[v o-fee-s'e]"
+            },
+            {
+                "English": "Speak slower, please.",
+                "Tatar": "Зинһар, әкренрәк әйтегез.",
+                "Russian": "Пожалйуста, говорите по медленее.",
+                "EnglishTranscripciya": "[spiːk ˈsləʊə, pliːz]",
+                "TatarTranscripciya": "[zeen-hár ek-ren-rék éi-te-gez]",
+                "RussianTranscripciya": "[pa-zhál-sta ga-va-reé-t'e pa-myéd-lye-ne-ye]"
+            },
+            {
+                "English": "Tell me, please…",
+                "Tatar": "Әйтегез әле",
+                "Russian": "Скажите, пожалуйста",
+                "EnglishTranscripciya": "[tɛl miː, pliːz]",
+                "TatarTranscripciya": "[éi-te-gez e-lé]",
+                "RussianTranscripciya": "[ska-zheé-t'e pa-zhál-sta]"
+            },
+            {
+                "English": "Repeat it, please.",
+                "Tatar": "Кабатлагыз әле",
+                "Russian": "Повторите, пожалуйста",
+                "EnglishTranscripciya": "[rɪˈpiːt ɪt, pliːz]",
+                "TatarTranscripciya": "[ka-bat-lá-gyz e-lé]",
+                "RussianTranscripciya": "[paf-ta-reé-t'e pa-zhál-sta ye-schyó raz]"
+            },
+            {
+                "English": "Yes.",
+                "Tatar": "Әйе.",
+                "Russian": "Да.",
+                "EnglishTranscripciya": "[jɛs]",
+                "TatarTranscripciya": "[ei-ye]",
+                "RussianTranscripciya": "[da]"
+            },
+            {
+                "English": "No.",
+                "Tatar": "Юк.",
+                "Russian": "Нет.",
+                "EnglishTranscripciya": "[nəʊ]",
+                "TatarTranscripciya": "[yuk]",
+                "RussianTranscripciya": "[nyet]"
+            },
+            {
+                "English": "Excuse me!",
+                "Tatar": "Гафу итегез!",
+                "Russian": "Извините!",
+                "EnglishTranscripciya": "[ɪksˈkjuːs miː]",
+                "TatarTranscripciya": "[ga-foó eé-te-gez]",
+                "RussianTranscripciya": "[eez-vee-neé-t'e]"
+            },
+            {
+                "English": "I am sorry!",
+                "Tatar": "Кичерегез!",
+                "Russian": "Простите!",
+                "EnglishTranscripciya": "[aɪ æm ˈsɒri]",
+                "TatarTranscripciya": "[kee-che-ré-gez]",
+                "RussianTranscripciya": "[pras-teé-t'e]"
+            },
+            {
+                "English": "Ok",
+                "Tatar": "Ярар",
+                "Russian": "Ладно",
+                "EnglishTranscripciya": "[əʊˈkeɪ]",
+                "TatarTranscripciya": "[ya-rár]",
+                "RussianTranscripciya": "[lát-na]"
+            },
+            {
+                "English": "I don't speak Tatar, Russian.",
+                "Tatar": "Мин татарча, русча сөйләшмим.",
+                "Russian": "Я не говорю по-татарски, по-русски",
+                "EnglishTranscripciya": "[aɪ dəʊnt spiːk ˈtɑːtə, ˈrʌʃn]",
+                "TatarTranscripciya": "[meen ta-tar-chá həm roos-chá soi-lesh-meém]",
+                "RussianTranscripciya": "[ya n'e ga-va-ryu pa ta-társ-kee, pa roós-kee]"
+            }
+        ],
+        "Numbers": [
+            {
+                "English": "1 - one",
+                "Tatar": "Бер",
+                "Russian": "один",
+                "EnglishTranscripciya": "[wʌn]",
+                "TatarTranscripciya": "[ber]",
+                "RussianTranscripciya": "[a-deén]"
+            },
+            {
+                "English": "2 - two",
+                "Tatar": "Ике",
+                "Russian": "два",
+                "EnglishTranscripciya": "[tuː]",
+                "TatarTranscripciya": "[ee-ké]",
+                "RussianTranscripciya": "[dva]"
+            },
+            {
+                "English": "3 - three",
+                "Tatar": "өч",
+                "Russian": "три",
+                "EnglishTranscripciya": "[θriː]",
+                "TatarTranscripciya": "[och]",
+                "RussianTranscripciya": "[tree]"
+            },
+            {
+                "English": "4 - four",
+                "Tatar": "дүрт",
+                "Russian": "четыре",
+                "EnglishTranscripciya": "[fɔː]",
+                "TatarTranscripciya": "[doort]",
+                "RussianTranscripciya": "[ch'e-tý-r'e]"
+            },
+            {
+                "English": "5 - five",
+                "Tatar": "биш",
+                "Russian": "пять",
+                "EnglishTranscripciya": "[faɪv]",
+                "TatarTranscripciya": "[beesh]",
+                "RussianTranscripciya": "[piat']"
+            },
+            {
+                "English": "6 - six",
+                "Tatar": "алты",
+                "Russian": "шесть",
+                "EnglishTranscripciya": "[sɪks]",
+                "TatarTranscripciya": "[ál-ty]",
+                "RussianTranscripciya": "[shest']"
+            },
+            {
+                "English": "7 - seven",
+                "Tatar": "җиде",
+                "Russian": "семь",
+                "EnglishTranscripciya": "[ˈsɛvn]",
+                "TatarTranscripciya": "[zheé-de]",
+                "RussianTranscripciya": "[siem']"
+            },
+            {
+                "English": "8 - eight",
+                "Tatar": "сигез",
+                "Russian": "восемь",
+                "EnglishTranscripciya": "[eɪt]",
+                "TatarTranscripciya": "[seé-gez]",
+                "RussianTranscripciya": "[vó-siem']"
+            },
+            {
+                "English": "9 - nine",
+                "Tatar": "тугыз",
+                "Russian": "девять",
+                "EnglishTranscripciya": "[naɪn]",
+                "TatarTranscripciya": "[toó-gyz]",
+                "RussianTranscripciya": "[dé-viat']"
+            },
+            {
+                "English": "10 -ten",
+                "Tatar": "ун",
+                "Russian": "десять",
+                "EnglishTranscripciya": "[tɛn]",
+                "TatarTranscripciya": "[oon]",
+                "RussianTranscripciya": "[dé-siat']"
+            },
+            {
+                "English": "11 - eleven",
+                "Tatar": "унбер",
+                "Russian": "Одиннадцать",
+                "EnglishTranscripciya": "[ɪˈlɛvn]",
+                "TatarTranscripciya": "[oon-ber]",
+                "RussianTranscripciya": "[a-deé-nat-sat']"
+            },
+            {
+                "English": "12 - twelve",
+                "Tatar": "унике",
+                "Russian": "Двенадцать",
+                "EnglishTranscripciya": "[twɛlv]",
+                "TatarTranscripciya": "[oon-ee-ké]",
+                "RussianTranscripciya": "[dvee-nát-sat']"
+            },
+            {
+                "English": "13 - thirteen",
+                "Tatar": "унөч",
+                "Russian": "Тринадцать",
+                "EnglishTranscripciya": "[ˈθɜːˈtiːn]",
+                "TatarTranscripciya": "[oon-och]",
+                "RussianTranscripciya": "[tree-nát-sat']"
+            },
+            {
+                "English": "14 - fourteen",
+                "Tatar": "ундүрт",
+                "Russian": "Четырнадцать",
+                "EnglishTranscripciya": "[ˈfɔːˈtiːn]",
+                "TatarTranscripciya": "[oon-doort]",
+                "RussianTranscripciya": "[che-týr-nat-sat']"
+            },
+            {
+                "English": "15 - fifteen",
+                "Tatar": "унбиш",
+                "Russian": "Пятнадцать",
+                "EnglishTranscripciya": "[fɪfˈtiːn]",
+                "TatarTranscripciya": "[oon-beesh]",
+                "RussianTranscripciya": "[piat-nát-sat']"
+            },
+            {
+                "English": "16 - sixteen",
+                "Tatar": "уналты",
+                "Russian": "Шестнадцать",
+                "EnglishTranscripciya": "[ˈsɪksˈtiːn]",
+                "TatarTranscripciya": "[oon-ál-ty]",
+                "RussianTranscripciya": "[shes-nát-sat']"
+            },
+            {
+                "English": "17 - seventeen",
+                "Tatar": "унҗиде",
+                "Russian": "Семнадцать",
+                "EnglishTranscripciya": "[ˈsɛvnˈtiːn]",
+                "TatarTranscripciya": "[oon-zheé-de]",
+                "RussianTranscripciya": "[siem-nát-sat']"
+            },
+            {
+                "English": "18 - eighteen",
+                "Tatar": "унсигез",
+                "Russian": "Восемьнадцать",
+                "EnglishTranscripciya": "[ˌeɪˈtiːn]",
+                "TatarTranscripciya": "[oon-seé-gez]",
+                "RussianTranscripciya": "[va-siem-nát-sat']"
+            },
+            {
+                "English": "19 - nineteen",
+                "Tatar": "ун тугыз",
+                "Russian": "Девятнадцать",
+                "EnglishTranscripciya": "[ˈnaɪnˈtiːn]",
+                "TatarTranscripciya": "[oon-toó-gyz]",
+                "RussianTranscripciya": "[deviatnátsat']"
+            },
+            {
+                "English": "20 - twenty",
+                "Tatar": "егерме",
+                "Russian": "Двадцать",
+                "EnglishTranscripciya": "[ˈtwɛnti]",
+                "TatarTranscripciya": "[ye-ger-mé]",
+                "RussianTranscripciya": "[dvát-sat']"
+            },
+            {
+                "English": "21 - twenty-one",
+                "Tatar": "егерме бер",
+                "Russian": "Двадцать один",
+                "EnglishTranscripciya": "[ˈtwɛnti-wʌn]",
+                "TatarTranscripciya": "[ye-ger-mé ber]",
+                "RussianTranscripciya": "[dvát-sat' a-deén]"
+            },
+            {
+                "English": "22 - twenty-two",
+                "Tatar": "егерме ике",
+                "Russian": "Двадцать два",
+                "EnglishTranscripciya": "[ˈtwɛnti-tuː]",
+                "TatarTranscripciya": "[ye-ger-mé ee-ké]",
+                "RussianTranscripciya": "[dvát-sat' dva]"
+            },
+            {
+                "English": "30 - thirty",
+                "Tatar": "утыз",
+                "Russian": "Тридцать",
+                "EnglishTranscripciya": "[ˈθɜːti]",
+                "TatarTranscripciya": "[oo-týz]",
+                "RussianTranscripciya": "[treét-sat']"
+            },
+            {
+                "English": "40 - forty",
+                "Tatar": "кырык",
+                "Russian": "Сорок",
+                "EnglishTranscripciya": "[ˈfɔːti]",
+                "TatarTranscripciya": "[ky-rýk]",
+                "RussianTranscripciya": "[só-rak]"
+            },
+            {
+                "English": "50 - fifty",
+                "Tatar": "илле",
+                "Russian": "Пятьдесять",
+                "EnglishTranscripciya": "[ˈfɪfti]",
+                "TatarTranscripciya": "[ee-lé]",
+                "RussianTranscripciya": "[piat'-die-syát]"
+            },
+            {
+                "English": "60 - sixty",
+                "Tatar": "алтмыш",
+                "Russian": "Шестьдесять",
+                "EnglishTranscripciya": "[ˈsɪksti]",
+                "TatarTranscripciya": "[alt-mýsh]",
+                "RussianTranscripciya": "[shest'-die-syát]"
+            },
+            {
+                "English": "70 - seventy",
+                "Tatar": "җитмеш",
+                "Russian": "Семьдесять",
+                "EnglishTranscripciya": "[ˈsɛvnti]",
+                "TatarTranscripciya": "[zheet-mésh]",
+                "RussianTranscripciya": "[sem'-die-syát]"
+            },
+            {
+                "English": "80 - eighty",
+                "Tatar": "сиксән",
+                "Russian": "Восемьдесять",
+                "EnglishTranscripciya": "[ˈeɪti]",
+                "TatarTranscripciya": "[seek-sén]",
+                "RussianTranscripciya": "[vo-sem'-die-syat]"
+            },
+            {
+                "English": "90 - ninety",
+                "Tatar": "туксан",
+                "Russian": "Девяносто",
+                "EnglishTranscripciya": "[ˈnaɪnti]",
+                "TatarTranscripciya": "[took-sán]",
+                "RussianTranscripciya": "[die-vya-nós-ta]"
+            },
+            {
+                "English": "100 - one hundred",
+                "Tatar": "йөз",
+                "Russian": "Сто",
+                "EnglishTranscripciya": "[wʌn ˈhʌndrəd]",
+                "TatarTranscripciya": "[ióz]",
+                "RussianTranscripciya": "[sto]"
+            },
+            {
+                "English": "101 - one hundred and one",
+                "Tatar": "йөз бер",
+                "Russian": "Сто один",
+                "EnglishTranscripciya": "[wʌn ˈhʌndrəd ænd wʌn]",
+                "TatarTranscripciya": "[ióz ber]",
+                "RussianTranscripciya": "[sto a-deen]"
+            },
+            {
+                "English": "200 - two hundred",
+                "Tatar": "ике йөз",
+                "Russian": "двести",
+                "EnglishTranscripciya": "[tuː ˈhʌndrəd]",
+                "TatarTranscripciya": "[ee-ké ioz]",
+                "RussianTranscripciya": "[dviés-tee]"
+            },
+            {
+                "English": "1000 - one thousand",
+                "Tatar": "бер мең",
+                "Russian": "одна тысяча",
+                "EnglishTranscripciya": "[wʌn ˈθaʊzənd]",
+                "TatarTranscripciya": "[ber men]",
+                "RussianTranscripciya": "[tý-sya-cha]"
+            },
+            {
+                "English": "10'000 - ten thousand",
+                "Tatar": "ун мең",
+                "Russian": "десять тысяч",
+                "EnglishTranscripciya": "[tɛn ˈθaʊzənd]",
+                "TatarTranscripciya": "[oon men]",
+                "RussianTranscripciya": "[dé-siat' tý-syach]"
+            },
+            {
+                "English": "1'000'000 - one million",
+                "Tatar": "бер миллион",
+                "Russian": "один миллион",
+                "EnglishTranscripciya": "[wʌn ˈmɪljən]",
+                "TatarTranscripciya": "[ber mee-lee-ón]",
+                "RussianTranscripciya": "[a-deén mee-lee-ón]"
+            },
+            {
+                "English": "10 mln - ten million",
+                "Tatar": "ун миллион",
+                "Russian": "десять миллионов",
+                "EnglishTranscripciya": "[tɛn ˈmɪljən]",
+                "TatarTranscripciya": "[oon mee-lee-ón]",
+                "RussianTranscripciya": "[dé-siat' mee-lee-ó-nof]"
+            },
+            {
+                "English": "How old are you?",
+                "Tatar": "Сезгә ничә яшь?",
+                "Russian": "Сколько вам лет?",
+                "EnglishTranscripciya": "[haʊ əʊld ɑː juː]",
+                "TatarTranscripciya": "[sez-ge neé-che yash]",
+                "RussianTranscripciya": "[skól'-ka vam liet]"
+            },
+            {
+                "English": "How old are you?",
+                "Tatar": "Сиңа ничә яшь?",
+                "Russian": "Сколько тебе лет?",
+                "EnglishTranscripciya": "[haʊ əʊld ɑː juː?]",
+                "TatarTranscripciya": "[see-ná neé-che yash]",
+                "RussianTranscripciya": "[skól-ka tie-bé liet]"
+            },
+            {
+                "English": "I am … years old",
+                "Tatar": "Миңа … яшь.",
+                "Russian": "Мне … лет",
+                "EnglishTranscripciya": "[aɪ æm... jɪəz əʊld]",
+                "TatarTranscripciya": "[mee-na ... yash]",
+                "RussianTranscripciya": "[mnie ... liet]"
+            },
+            {
+                "English": "I am 20 years old",
+                "Tatar": "Миңа егерме яшь.",
+                "Russian": "Мне 20 лет",
+                "EnglishTranscripciya": "[aɪ æm ˈtwɛnti jɪəz əʊld]",
+                "TatarTranscripciya": "[mee-ná ye-ger-mé yash]",
+                "RussianTranscripciya": "[mnie dvatsat' liet]"
+            }
+        ],
+        "Pronouns": [
+            {
+                "English": "I",
+                "Tatar": "Мин",
+                "Russian": "Я",
+                "EnglishTranscripciya": "[aɪ]",
+                "TatarTranscripciya": "[meen]",
+                "RussianTranscripciya": "[ya]"
+            },
+            {
+                "English": "You",
+                "Tatar": "Син",
+                "Russian": "Ты",
+                "EnglishTranscripciya": "[juː]",
+                "TatarTranscripciya": "[seen]",
+                "RussianTranscripciya": "[ty]"
+            },
+            {
+                "English": "He",
+                "Tatar": "Ул",
+                "Russian": "Он",
+                "EnglishTranscripciya": "[hiː]",
+                "TatarTranscripciya": "[ool]",
+                "RussianTranscripciya": "[on]"
+            },
+            {
+                "English": "She",
+                "Tatar": "Ул",
+                "Russian": "Она",
+                "EnglishTranscripciya": "[ʃiː]",
+                "TatarTranscripciya": "[ool]",
+                "RussianTranscripciya": "[a-ná]"
+            },
+            {
+                "English": "We",
+                "Tatar": "Без",
+                "Russian": "Мы",
+                "EnglishTranscripciya": "[wiː]",
+                "TatarTranscripciya": "[bez]",
+                "RussianTranscripciya": "[my]"
+            },
+            {
+                "English": "You",
+                "Tatar": "Сез",
+                "Russian": "Вы",
+                "EnglishTranscripciya": "[juː]",
+                "TatarTranscripciya": "[sez]",
+                "RussianTranscripciya": "[vy]"
+            },
+            {
+                "English": "They",
+                "Tatar": "Алар",
+                "Russian": "Они",
+                "EnglishTranscripciya": "[ðeɪ]",
+                "TatarTranscripciya": "[a-lár]",
+                "RussianTranscripciya": "[a-neé]"
+            }
+        ],
+        "Days of the week and Time": [
+            {
+                "English": "Monday",
+                "Tatar": "Дүшәмбе",
+                "Russian": "Понедельник",
+                "EnglishTranscripciya": "[ˈmʌndeɪ]",
+                "TatarTranscripciya": "[doo-shém-be]",
+                "RussianTranscripciya": "[pa-nee-diél'-neek]"
+            },
+            {
+                "English": "Tuesday",
+                "Tatar": "Сишәмбе",
+                "Russian": "Вторник",
+                "EnglishTranscripciya": "[ˈʧuːzdeɪ]",
+                "TatarTranscripciya": "[see-shém-be]",
+                "RussianTranscripciya": "[ftór-neek]"
+            },
+            {
+                "English": "Wednesday",
+                "Tatar": "Чәршәмбе",
+                "Russian": "Среда",
+                "EnglishTranscripciya": "[ˈwɛnzdeɪ]",
+                "TatarTranscripciya": "[cher-shém-be]",
+                "RussianTranscripciya": "[srie-dá]"
+            },
+            {
+                "English": "Thursday",
+                "Tatar": "Пәнҗешәмбе",
+                "Russian": "Четверг",
+                "EnglishTranscripciya": "[ˈθɜːzdeɪ]",
+                "TatarTranscripciya": "[pen-zhe-shém-be]",
+                "RussianTranscripciya": "[chet-viérg]"
+            },
+            {
+                "English": "Friday",
+                "Tatar": "Җомга",
+                "Russian": "Пятница",
+                "EnglishTranscripciya": "[ˈfraɪdeɪ]",
+                "TatarTranscripciya": "[zhom-gá]",
+                "RussianTranscripciya": "[piátnitsa]"
+            },
+            {
+                "English": "Saturday",
+                "Tatar": "Шимбә",
+                "Russian": "Суббота",
+                "EnglishTranscripciya": "[ˈsætədeɪ]",
+                "TatarTranscripciya": "[sheem-bé]",
+                "RussianTranscripciya": "[soo-bó-ta]"
+            },
+            {
+                "English": "Sunday",
+                "Tatar": "Якшәмбе",
+                "Russian": "Воскресенье",
+                "EnglishTranscripciya": "[ˈsʌndeɪ]",
+                "TatarTranscripciya": "[yak-shém-be]",
+                "RussianTranscripciya": "[vas-krie-sié-nie]"
+            },
+            {
+                "English": "yesterday",
+                "Tatar": "кичә",
+                "Russian": "вчера",
+                "EnglishTranscripciya": "[ˈjɛstədeɪ]",
+                "TatarTranscripciya": "[kee-ché]",
+                "RussianTranscripciya": "[fche-rá]"
+            },
+            {
+                "English": "today",
+                "Tatar": "бүген",
+                "Russian": "сегодня",
+                "EnglishTranscripciya": "[təˈdeɪ]",
+                "TatarTranscripciya": "[boo-gén]",
+                "RussianTranscripciya": "[sie-vód-nya]"
+            },
+            {
+                "English": "tomorrow",
+                "Tatar": "иртәгә",
+                "Russian": "завтра",
+                "EnglishTranscripciya": "[təˈmɒrəʊ]",
+                "TatarTranscripciya": "[eer-te-gé]",
+                "RussianTranscripciya": "[záf-tra]"
+            },
+            {
+                "English": "morning",
+                "Tatar": "иртә",
+                "Russian": "утро",
+                "EnglishTranscripciya": "[ˈmɔːnɪŋ]",
+                "TatarTranscripciya": "[eer-té]",
+                "RussianTranscripciya": "[oót-ra]"
+            },
+            {
+                "English": "day",
+                "Tatar": "көн",
+                "Russian": "день",
+                "EnglishTranscripciya": "[deɪ]",
+                "TatarTranscripciya": "[kyon]",
+                "RussianTranscripciya": "[dien']"
+            },
+            {
+                "English": "evening",
+                "Tatar": "кич",
+                "Russian": "вечер",
+                "EnglishTranscripciya": "[ˈiːvnɪŋ]",
+                "TatarTranscripciya": "[keech]",
+                "RussianTranscripciya": "[vié-cher]"
+            },
+            {
+                "English": "night",
+                "Tatar": "төн",
+                "Russian": "ночь",
+                "EnglishTranscripciya": "[naɪt]",
+                "TatarTranscripciya": "[tyon]",
+                "RussianTranscripciya": "[noch]"
+            },
+            {
+                "English": "week",
+                "Tatar": "атна",
+                "Russian": "неделя",
+                "EnglishTranscripciya": "[wiːk]",
+                "TatarTranscripciya": "[at-ná]",
+                "RussianTranscripciya": "[nie-dié-lya]"
+            },
+            {
+                "English": "month",
+                "Tatar": "ай",
+                "Russian": "месяц",
+                "EnglishTranscripciya": "[mʌnθ]",
+                "TatarTranscripciya": "[ai]",
+                "RussianTranscripciya": "[mié-syats]"
+            }
+        ],
+        "Arrival in the country": [
+            {
+                "English": "How to get to the hotel?",
+                "Tatar": "Кунакханәгә ничек барырга?",
+                "Russian": "Как проехать в гостиницу?",
+                "EnglishTranscripciya": "[haʊ tuː ɡɛt tuː ðə həʊˈtɛl]",
+                "TatarTranscripciya": "[koo-nak-ha-ne-gé neé-chek ba-ryr-gá]",
+                "RussianTranscripciya": "[kak pra-yé-hat' v gas-teé-neet-su]"
+            },
+            {
+                "English": "Where I can stay here?",
+                "Tatar": "Монда кайда урнашырга була?",
+                "Russian": "Где здесь можно устроиться?",
+                "EnglishTranscripciya": "[weər aɪ kæn steɪ hɪə]",
+                "TatarTranscripciya": "[mon-dá kái-da oor-na-shyr-gá boo-lá]",
+                "RussianTranscripciya": "[gdye zdies' mózh-na oos-tró-ee-tsa]"
+            },
+            {
+                "English": "Where are you staying?",
+                "Tatar": "Сез кайда тукталдыгыз?",
+                "Russian": "Где вы остановились?",
+                "EnglishTranscripciya": "[weər ɑː juː ˈsteɪɪŋ]",
+                "TatarTranscripciya": "[sez kai-dá took-tá-ly-gyz]",
+                "RussianTranscripciya": "[gdye vy as-ta-na-vee-lees']"
+            },
+            {
+                "English": "We stayed at the Kazan Hotel",
+                "Tatar": "Без «Казан» кунакханәдә тукталдык",
+                "Russian": "Мы остановились в гостинице \"Казань\"",
+                "EnglishTranscripciya": "[wiː steɪd æt ðə kəˈzæn həʊˈtɛl]",
+                "TatarTranscripciya": "[bez ka-zán koo-nak-ha-ne-dé took-tal-dýk]",
+                "RussianTranscripciya": "[my astanaveelees' v gasteénitse kazan']"
+            },
+            {
+                "English": "I would like to go tto Kazan Hotel",
+                "Tatar": "Миңа «Казан» кунакханәгә барырга кирәк",
+                "Russian": "Мне нужно в отель \"Казань\"",
+                "EnglishTranscripciya": "[aɪ wʊd laɪk tuː ɡəʊ tuː kəˈzæn həʊˈtɛl]",
+                "TatarTranscripciya": "[mee-na kazan koo-nak-ha-ne-gé ba-ryr-gá kee-reḱ]",
+                "RussianTranscripciya": "[mnie noózh-na v o-tél' ka-zán']"
+            },
+            {
+                "English": "I would like to go to the airport",
+                "Tatar": "Миңа аэропортка барырга кирәк",
+                "Russian": "Мне нужно в аэропорт",
+                "EnglishTranscripciya": "[aɪ wʊd laɪk tuː ɡəʊ tuː ði ˈeəpɔːt]",
+                "TatarTranscripciya": "[mee-na aera-port-ká ba-ryr-gá kee-reḱ]",
+                "RussianTranscripciya": "[mnie noózh-na v aera-pórt]"
+            },
+            {
+                "English": "Call a taxi, please",
+                "Tatar": "Зинһар, такси чакыртыгыз",
+                "Russian": "Вызовите, пожалуйста, такси",
+                "EnglishTranscripciya": "[kɔːl ə ˈtæksi, pliːz]",
+                "TatarTranscripciya": "[zeen-hár tak-seé scha-kyr-tý-gyz]",
+                "RussianTranscripciya": "[vý-za-vee-t'e pa-zhál-sta tak-seé]"
+            },
+            {
+                "English": "Stop here, please",
+                "Tatar": "Монда туктатыгызчы.",
+                "Russian": "Остановите здесь",
+                "EnglishTranscripciya": "[stɒp hɪə, pliːz]",
+                "TatarTranscripciya": "[mon-dá took-ta-tý-gyz-chy]",
+                "RussianTranscripciya": "[as-ta-na-vee-t'e zdes']"
+            },
+            {
+                "English": "Where is the nearest … ?",
+                "Tatar": "Монда иң якын…кайда?",
+                "Russian": "Где здесь ближайший …?",
+                "EnglishTranscripciya": "[weər ɪz ðə ˈnɪərɪst...]",
+                "TatarTranscripciya": "[mon-dá eeŋ ya-kýn ... kai-dá]",
+                "RussianTranscripciya": "[gdye zdes' blee-zhái-shiy...]"
+            },
+            {
+                "English": "…bank",
+                "Tatar": "банк",
+                "Russian": "банк",
+                "EnglishTranscripciya": "[bæŋk]",
+                "TatarTranscripciya": "[bank]",
+                "RussianTranscripciya": "[bank]"
+            },
+            {
+                "English": "…supermarket",
+                "Tatar": "cупермаркет",
+                "Russian": "супермаркет",
+                "EnglishTranscripciya": "[ˈsuːpəˌmɑːkɪt]",
+                "TatarTranscripciya": "[soo-per-már-ket]",
+                "RussianTranscripciya": "[soo-per-már-ket]"
+            },
+            {
+                "English": "…underground station",
+                "Tatar": "метро станциясе",
+                "Russian": "станция метро",
+                "EnglishTranscripciya": "[ˈʌndəɡraʊnd ˈsteɪʃᵊn]",
+                "TatarTranscripciya": "[met-ró stán-tsee-ya-se]",
+                "RussianTranscripciya": "[stán-tsi-ya met-ró]"
+            },
+            {
+                "English": "…bus stop",
+                "Tatar": "автобус тукталышы",
+                "Russian": "автобусная остановка",
+                "EnglishTranscripciya": "[bʌs stɒp]",
+                "TatarTranscripciya": "[af-tó-boos took-ta-ly-shý]",
+                "RussianTranscripciya": "[af-tó-boos-na-ya as-ta-nóf-ka]"
+            },
+            {
+                "English": "…police station",
+                "Tatar": "полиция бүлеге",
+                "Russian": "полицейский участок",
+                "EnglishTranscripciya": "[pəˈliːs ˈsteɪʃᵊn]",
+                "TatarTranscripciya": "[pa-leé-tsee-ya boo-le-gé]",
+                "RussianTranscripciya": "[pa-lee-tséi-skiy oo-chás-tok]"
+            },
+            {
+                "English": "Where are we now?",
+                "Tatar": "Без хәзер кайда?",
+                "Russian": "Где мы сейчас?",
+                "EnglishTranscripciya": "[weər ɑː wiː naʊ]",
+                "TatarTranscripciya": "[bez he-zer kai-dá]",
+                "RussianTranscripciya": "[gdye my sey-chás]"
+            },
+            {
+                "English": "What is the name of this street?",
+                "Tatar": "Бу урам ничек атала?",
+                "Russian": "Как называется эта улица?",
+                "EnglishTranscripciya": "[wɒt ɪz ðə neɪm ɒv ðɪs striːt]",
+                "TatarTranscripciya": "[boo oo-rám nee-chék a-ta-lá]",
+                "RussianTranscripciya": "[kak na-zy-vá-yet-sya é-ta oó-lee-tsa]"
+            },
+            {
+                "English": "Where is entrrance?",
+                "Tatar": "Керү кайда?",
+                "Russian": "Где вход?",
+                "EnglishTranscripciya": "[weər ɪz ði ˈɛntrəns]",
+                "TatarTranscripciya": "[ke-roó kai-dá]",
+                "RussianTranscripciya": "[gdye fhot]"
+            },
+            {
+                "English": "Where is the exit?",
+                "Tatar": "Чыгу кайда?",
+                "Russian": "Где выход?",
+                "EnglishTranscripciya": "[weər ɪz ði ˈɛksɪt]",
+                "TatarTranscripciya": "[chy-goó kai-dá]",
+                "RussianTranscripciya": "[gdye vý-hot]"
+            },
+            {
+                "English": "Where is the toilet?",
+                "Tatar": "Монда бәдрәф кайда?",
+                "Russian": "Где туалет?",
+                "EnglishTranscripciya": "[weər ɪz ðə ˈtɔɪlɪt]",
+                "TatarTranscripciya": "[mon-dá bed-réf kai-dá]",
+                "RussianTranscripciya": "[gdye too-a-liét]"
+            }
+        ],
+        "At the store": [
+            {
+                "English": "I want to buy",
+                "Tatar": "Мин сатып алырга телим",
+                "Russian": "Я хочу купить",
+                "EnglishTranscripciya": "[aɪ wɒnt tuː baɪ]",
+                "TatarTranscripciya": "[meen sa-týp a-lyr-gá te-leém]",
+                "RussianTranscripciya": "[ya ha-choó koo-peét']"
+            },
+            {
+                "English": "Do you have discounts?",
+                "Tatar": "Сезнең ташламалар бармы?",
+                "Russian": "У вас есть скидки?",
+                "EnglishTranscripciya": "[duː juː hæv ˈdɪskaʊnts]",
+                "TatarTranscripciya": "[sez-nén tash-la-ma-lár bár-my]",
+                "RussianTranscripciya": "[oo vas yest' skeéd-kee]"
+            },
+            {
+                "English": "I want to try on this ... dress",
+                "Tatar": "Мин бу ...күлмәкне... киеп карарга телим",
+                "Russian": "Я хочу примерить это ... платье",
+                "EnglishTranscripciya": "[aɪ wɒnt tuː traɪ ɒn ðɪs ... drɛs]",
+                "TatarTranscripciya": "[meen boo... kool-mek-né kee-yép ka-rar-gá te-leém]",
+                "RussianTranscripciya": "[ya ha-choó pree-mie-reet' é-to plá-tie]"
+            },
+            {
+                "English": "...jeans",
+                "Tatar": "...джинсны...",
+                "Russian": "...джинсы",
+                "EnglishTranscripciya": "[ʤiːnz]",
+                "TatarTranscripciya": "[dzheens-ný]",
+                "RussianTranscripciya": "[dzheén-sy]"
+            },
+            {
+                "English": "...sweater",
+                "Tatar": "...свитерны...",
+                "Russian": "...свитер",
+                "EnglishTranscripciya": "[ˈswɛtə]",
+                "TatarTranscripciya": "[svee-ter-ny]",
+                "RussianTranscripciya": "[sveé-ter]"
+            },
+            {
+                "English": "...skirt",
+                "Tatar": "...итәкне...",
+                "Russian": "...юбку",
+                "EnglishTranscripciya": "[skɜːt]",
+                "TatarTranscripciya": "[ee-tek-né]",
+                "RussianTranscripciya": "[yúp-koo]"
+            },
+            {
+                "English": "...costume, suit",
+                "Tatar": "...костюмны..., ...кәчтүмне...",
+                "Russian": "...костюм",
+                "EnglishTranscripciya": "[ˈkɒstjuːm, sjuːt]",
+                "TatarTranscripciya": "[kas-tyum-né, kesch-tyum-né]",
+                "RussianTranscripciya": "[kas-tyúm]"
+            },
+            {
+                "English": "...trousers",
+                "Tatar": "...чалбарны...",
+                "Russian": "...брюки",
+                "EnglishTranscripciya": "[ˈtraʊzəz]",
+                "TatarTranscripciya": "[schal-bar-ný]",
+                "RussianTranscripciya": "[bryú-kee]"
+            },
+            {
+                "English": "...shirt",
+                "Tatar": "...күлмәкне...",
+                "Russian": "...рубашку",
+                "EnglishTranscripciya": "[ʃɜːt]",
+                "TatarTranscripciya": "[kool-mek-né]",
+                "RussianTranscripciya": "[roo-básh-koo]"
+            },
+            {
+                "English": "Free of charge",
+                "Tatar": "Түләүсез",
+                "Russian": "Бесплатно",
+                "EnglishTranscripciya": "[friː ɒv ʧɑːʤ]",
+                "TatarTranscripciya": "[too-le-oo-séz]",
+                "RussianTranscripciya": "[bes-plát-na]"
+            },
+            {
+                "English": "How much is this?",
+                "Tatar": "Бу күпме тора?",
+                "Russian": "Сколько это стоит?",
+                "EnglishTranscripciya": "[haʊ mʌʧ ɪz ðɪs]",
+                "TatarTranscripciya": "[boo koóp-me to-rá]",
+                "RussianTranscripciya": "[skól'-ka é-to stó-eet']"
+            },
+            {
+                "English": "How much does it cost?",
+                "Tatar": "Бу күпме тора?",
+                "Russian": "Сколько это стоит?",
+                "EnglishTranscripciya": "[haʊ mʌʧ dʌz ɪt kɒst]",
+                "TatarTranscripciya": "[boo koóp-me to-rá]",
+                "RussianTranscripciya": "[skól'-ka é-to stó-eet']"
+            },
+            {
+                "English": "I'll buy",
+                "Tatar": "Мин алам",
+                "Russian": "Я покупаю",
+                "EnglishTranscripciya": "[aɪl baɪ]",
+                "TatarTranscripciya": "[meen a-lám]",
+                "RussianTranscripciya": "[ya pa-koo-pá-yu]"
+            }
+        ],
+        "Restaurant, cafe": [
+            {
+                "English": "I want to reserve a table",
+                "Tatar": "Мин бронь ясарга телим",
+                "Russian": "Я хочу заказать столик",
+                "EnglishTranscripciya": "[aɪ wɒnt tuː rɪˈzɜːv ə ˈteɪbl]",
+                "TatarTranscripciya": "[meen bron' ya-sar-gá te-leém]",
+                "RussianTranscripciya": "[ya ha-choó za-ka-zat' stó-leek]"
+            },
+            {
+                "English": "Waiter",
+                "Tatar": "Официант",
+                "Russian": "Официант",
+                "EnglishTranscripciya": "[ˈweɪtə]",
+                "TatarTranscripciya": "[a-fee-tsee-ánt]",
+                "RussianTranscripciya": "[a-fee-tsee-ánt]"
+            },
+            {
+                "English": "Is there a table available?",
+                "Tatar": "Сезнең буш өстәлләр бармы?",
+                "Russian": "Есть ли у вас свободные столики?",
+                "EnglishTranscripciya": "[ɪz ðeər ə ˈteɪbl əˈveɪləbl]",
+                "TatarTranscripciya": "[sez-nén boosh os-te-lér bár-my]",
+                "RussianTranscripciya": "[yest lee oo vas svo-bód-ny-ye stó-lee-kee]"
+            },
+            {
+                "English": "There are six of us",
+                "Tatar": "Без алты кеше",
+                "Russian": "Нас шесть человек",
+                "EnglishTranscripciya": "[ðeər ɑː sɪks ɒv ʌs]",
+                "TatarTranscripciya": "[bez al-tý ke-shé]",
+                "RussianTranscripciya": "[nas shest' che-lo-viék]"
+            },
+            {
+                "English": "What would you like?",
+                "Tatar": "Сез нәрсә теләр идегез?",
+                "Russian": "Что бы вы хотели?",
+                "EnglishTranscripciya": "[wɒt wʊd juː laɪk]",
+                "TatarTranscripciya": "[sez ner-sé te-lér eé-de-gez]",
+                "RussianTranscripciya": "[shto by vy ho-tié-lee]"
+            },
+            {
+                "English": "Enjoy your meal!",
+                "Tatar": "Ашыгыз тәмле булсын!",
+                "Russian": "Приятного аппетита!",
+                "EnglishTranscripciya": "[ɪnˈʤɔɪ jɔː miːl]",
+                "TatarTranscripciya": "[á-shy-gyz tem-lé bool-sýn]",
+                "RussianTranscripciya": "[pree-yát-na-va a-pee-teé-ta]"
+            },
+            {
+                "English": "I would like...",
+                "Tatar": "Мин...теләр идем",
+                "Russian": "Я хотел бы...",
+                "EnglishTranscripciya": "[aɪ wʊd laɪk...]",
+                "TatarTranscripciya": "[meen ... te-lér ee-dém]",
+                "RussianTranscripciya": "[ya ho-tiél by]"
+            },
+            {
+                "English": "...a glass of water",
+                "Tatar": "... бер стакан су...",
+                "Russian": "...стакан воды",
+                "EnglishTranscripciya": "[ə ɡlɑːs ɒv ˈwɔːtə]",
+                "TatarTranscripciya": "[ber sta-kán soo]",
+                "RussianTranscripciya": "[sta-kán va-dý]"
+            },
+            {
+                "English": "... a cup of coffee",
+                "Tatar": "... бер чынаяк кофе...",
+                "Russian": "...чашку кофе",
+                "EnglishTranscripciya": "[ə kʌp ɒv ˈkɒfi]",
+                "TatarTranscripciya": "[ber chy-na-yák kó-fie]",
+                "RussianTranscripciya": "[chásh-koo kó-fie]"
+            },
+            {
+                "English": "... a glass of milk",
+                "Tatar": "... бер стакан сөт...",
+                "Russian": "...стакан молока",
+                "EnglishTranscripciya": "[ə ɡlɑːs ɒv mɪlk]",
+                "TatarTranscripciya": "[ber sta-kán syot]",
+                "RussianTranscripciya": "[sta-kán ma-la-ká]"
+            },
+            {
+                "English": "... a cup of tea",
+                "Tatar": "...бер чынаяк чәй...",
+                "Russian": "...чашку чая",
+                "EnglishTranscripciya": "[ə kʌp ɒv tiː]",
+                "TatarTranscripciya": "[ber chy-na-yák schey]",
+                "RussianTranscripciya": "[chásh-koo chá-ya]"
+            },
+            {
+                "English": "Check, please",
+                "Tatar": "Исәп, зинһар",
+                "Russian": "Счет, пожалуйста",
+                "EnglishTranscripciya": "[ʧɛk, pliːz]",
+                "TatarTranscripciya": "[ee-sép zeen-hár]",
+                "RussianTranscripciya": "[schyot pa-zhál-sta]"
+            }
+        ],
+        "Food": [
+            {
+                "English": "juice",
+                "Tatar": "сок",
+                "Russian": "сок",
+                "EnglishTranscripciya": "[ʤuːs]",
+                "TatarTranscripciya": "[sok]",
+                "RussianTranscripciya": "[sok]"
+            },
+            {
+                "English": "bread",
+                "Tatar": "икмәк",
+                "Russian": "хлеб",
+                "EnglishTranscripciya": "[brɛd]",
+                "TatarTranscripciya": "[eek-mék]",
+                "RussianTranscripciya": "[hlep]"
+            },
+            {
+                "English": "soup",
+                "Tatar": "аш",
+                "Russian": "суп",
+                "EnglishTranscripciya": "[suːp]",
+                "TatarTranscripciya": "[ash]",
+                "RussianTranscripciya": "[soop]"
+            },
+            {
+                "English": "cheese",
+                "Tatar": "сыр",
+                "Russian": "сыр",
+                "EnglishTranscripciya": "[ʧiːz]",
+                "TatarTranscripciya": "[syr]",
+                "RussianTranscripciya": "[syr]"
+            },
+            {
+                "English": "sugar",
+                "Tatar": "шикәр",
+                "Russian": "сахар",
+                "EnglishTranscripciya": "[ˈʃʊɡə]",
+                "TatarTranscripciya": "[shee-kér]",
+                "RussianTranscripciya": "[sá-har]"
+            },
+            {
+                "English": "salt",
+                "Tatar": "тоз",
+                "Russian": "соль",
+                "EnglishTranscripciya": "[sɒlt]",
+                "TatarTranscripciya": "[toz]",
+                "RussianTranscripciya": "[sol']"
+            },
+            {
+                "English": "meat",
+                "Tatar": "ит",
+                "Russian": "мясо",
+                "EnglishTranscripciya": "[miːt]",
+                "TatarTranscripciya": "[eet]",
+                "RussianTranscripciya": "[myá-sa]"
+            },
+            {
+                "English": "fish",
+                "Tatar": "балык",
+                "Russian": "рыба",
+                "EnglishTranscripciya": "[fɪʃ]",
+                "TatarTranscripciya": "[ba-lýk]",
+                "RussianTranscripciya": "[rý-ba]"
+            },
+            {
+                "English": "apple",
+                "Tatar": "алма",
+                "Russian": "яблоко",
+                "EnglishTranscripciya": "[ˈæpl]",
+                "TatarTranscripciya": "[al-má]",
+                "RussianTranscripciya": "[yáb-la-ka]"
+            },
+            {
+                "English": "grapes",
+                "Tatar": "виноград",
+                "Russian": "виноград",
+                "EnglishTranscripciya": "[ɡreɪps]",
+                "TatarTranscripciya": "[vee-na-grád]",
+                "RussianTranscripciya": "[vee-na-grád]"
+            },
+            {
+                "English": "orange",
+                "Tatar": "әфлисун",
+                "Russian": "апельсин",
+                "EnglishTranscripciya": "[ˈɒrɪnʤ]",
+                "TatarTranscripciya": "[ef-lee-soón]",
+                "RussianTranscripciya": "[a-peel'-seén]"
+            },
+            {
+                "English": "strawberry",
+                "Tatar": "җир җиләге",
+                "Russian": "клубника",
+                "EnglishTranscripciya": "[ˈstrɔːbəri]",
+                "TatarTranscripciya": "[zheer zhee-le-gé]",
+                "RussianTranscripciya": "[kloob-neé-ka]"
+            },
+            {
+                "English": "vegetables",
+                "Tatar": "яшелчәләр",
+                "Russian": "овощи",
+                "EnglishTranscripciya": "[ˈvɛʤtəblz]",
+                "TatarTranscripciya": "[ya-shel-sche-lér]",
+                "RussianTranscripciya": "[ó-vo-schee]"
+            },
+            {
+                "English": "salad",
+                "Tatar": "салат",
+                "Russian": "салат",
+                "EnglishTranscripciya": "[ˈsæləd]",
+                "TatarTranscripciya": "[sa-lát]",
+                "RussianTranscripciya": "[sa-lát]"
+            },
+            {
+                "English": "potato",
+                "Tatar": "бәрәңге",
+                "Russian": "картофель",
+                "EnglishTranscripciya": "[pəˈteɪtəʊ]",
+                "TatarTranscripciya": "[be-reŋ-gé]",
+                "RussianTranscripciya": "[kar-tó-fel']"
+            },
+            {
+                "English": "onion",
+                "Tatar": "суган",
+                "Russian": "лук",
+                "EnglishTranscripciya": "[ˈʌnjən]",
+                "TatarTranscripciya": "[soo-gán]",
+                "RussianTranscripciya": "[look]"
+            }
+        ]
+    }
+}

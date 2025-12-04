@@ -7,7 +7,7 @@
   --gradient-1: linear-gradient(135deg, #7c94ff 0%, #3e78ce 100%);
   --gradient-2: linear-gradient(135deg, #7c94ff 0%, #3e78ce 100%);
   --gradient-3: linear-gradient(135deg, #7c94ff 0%, #3e78ce 100%);
-  --translit-color: rgba(255, 255, 255, 0.7); /* Light color for transliteration */
+  --translit-color: rgba(255, 255, 255, 0.7);
 }
 
 body.dark {
@@ -19,7 +19,7 @@ body.dark {
   --gradient-1: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
   --gradient-2: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
   --gradient-3: linear-gradient(135deg, #4a5568 0%, #2d3748 100%);
-  --translit-color: rgba(255, 255, 255, 0.7); /* Same light color in dark mode */
+  --translit-color: rgba(255, 255, 255, 0.7);
 }
 
 body {
@@ -144,9 +144,8 @@ header {
   font-size: 12px;
 }
 
-/* New styles for transliteration */
 .phrase-card .translit {
-    display: block; /* Make it appear on a new line or inline after a space */
+    display: block;
     font-size: 0.85em;
     color: var(--translit-color);
     margin-top: 2px;
