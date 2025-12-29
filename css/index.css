@@ -165,3 +165,66 @@ header {
     grid-template-columns: 1fr;
   }
 }
+
+.translator-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#translator-input {
+  width: 100%;
+  height: 100px;
+  border-radius: 12px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.translator-controls {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  width: 100%;
+}
+
+.tr-element {
+  flex: 1;
+  height: 45px;
+  padding: 0 10px;
+  border-radius: 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#lang-select {
+  background: var(--card-bg);
+  color: var(--text);
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+#translate-btn {
+  z-index: 10;
+  cursor: pointer;
+  pointer-events: auto !important;
+}
+
+#translator-result {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  word-wrap: break-word;
+}
+
+#translator-result .menu-button {
+  background: var(--button-bg);
+  margin-top: 15px;
+  top: 0;
+}
