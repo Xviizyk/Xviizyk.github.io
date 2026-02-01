@@ -119,7 +119,7 @@ function renderPhrasebookTopics() {
     if (!nav || !mainData.phrasebook) return;
 
     nav.innerHTML = '<button class="menu-button back-to-home">Back</button>';
-    nav.querySelector('.back-to-home').addEventListener('click', () => switchView('home-view', 'Phrasebook and Guide'));
+    nav.querySelector('.back-to-home').addEventListener('click', () => switchView('home-view', 'The Tatarstan Bridge'));
 
     Object.keys(mainData.phrasebook).forEach(topic => {
         const btn = document.createElement("button");
