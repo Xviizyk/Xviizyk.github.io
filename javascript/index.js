@@ -7,9 +7,14 @@ const sightsContainer = $("sights-container");
 const cultureContainer = $("culture-container");
 const historyContainer = $("history-container");
 const allViews = document.querySelectorAll('.view');
+const translatorInput = $("translator-input");
+const translateBtn = $("translate-btn");
+const translatorResult = $("translator-result");
+const langSelect = $("lang-select");
 
 const mainData = {};
 
+// Татарского ТТС нету, поэтому сделал костыль
 function tatToRus(tatarText) {
     const replaces = {
         'Ә': 'Э', 'ә': 'э', 'Ө': 'О', 'ө': 'ё', 'Ү': 'У', 'ү': 'у',
@@ -24,6 +29,7 @@ function tatToRus(tatarText) {
     return normalizedText;
 }
 
+// Использование WebSpeechApi для озвучки текста
 function speakText(text, language) {
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
@@ -37,6 +43,7 @@ function speakText(text, language) {
     window.speechSynthesis.speak(utterance);
 }
 
+// Получение всех слов, фраз и предложений из data/data.json
 fetch("data/data.json")
     .then(res => res.ok ? res.json() : null)
     .then(json => {
@@ -48,6 +55,7 @@ fetch("data/data.json")
     })
     .catch(err => console.error("Error loading a JSON:", err));
 
+// Переключение темы
 themeButton.addEventListener("click", () => {
     document.body.classList.toggle("dark");
     themeButton.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
@@ -59,6 +67,7 @@ function switchView(viewId, title) {
     pageTitle.textContent = title;
 }
 
+// Переключиться на фразы и Слова (Разговорник)
 document.querySelectorAll('#home-view .menu-button').forEach(button => {
     button.addEventListener('click', () => {
         const viewId = button.dataset.view;
@@ -70,10 +79,12 @@ document.querySelectorAll('#home-view .menu-button').forEach(button => {
     });
 });
 
+// Переход в главное меню
 document.querySelectorAll('.back-to-home').forEach(button => {
     button.addEventListener('click', () => switchView('home-view', 'Phrasebook and Guide'));
 });
 
+// Наблюдатель (для карточек)
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -83,6 +94,7 @@ const observer = new IntersectionObserver(entries => {
     });
 }, { threshold: 0.1 });
 
+// Показать карточки в разговорнике
 function showPhrases(phrases) {
     phrasesContainer.innerHTML = "";
     if (!phrases) return;
@@ -114,6 +126,7 @@ function showPhrases(phrases) {
     });
 }
 
+//  Показать темы разговорника
 function renderPhrasebookTopics() {
     const nav = document.querySelector("#phrasebook-view nav");
     if (!nav || !mainData.phrasebook) return;
@@ -130,22 +143,25 @@ function renderPhrasebookTopics() {
     });
 }
 
+// Показать главные темы (История и т.д.)
 function showTopic(topic) {
     showPhrases(mainData.phrasebook[topic]);
     searchInput.value = "";
 }
 
+// Поисковик
 searchInput.addEventListener("input", () => {
     const query = searchInput.value.toLowerCase();
     const results = [];
     Object.values(mainData.phrasebook).forEach(topicPhrases => {
         topicPhrases.forEach(p => {
-            if (JSON.stringify(p).toLowerCase().includes(query)) results.push(p);
+            if (JSON.stringify(p).toLowerCase().includes(query) && query.toLowerCase() != "tatar" && query.toLowerCase() != "russian" && query.toLowerCase() != "english") results.push(p);
         });
     });
     showPhrases(results);
 });
 
+// Показать карточки (информация)
 function showInfoCards(data, container) {
     container.innerHTML = "";
     if (!data) {
@@ -161,6 +177,7 @@ function showInfoCards(data, container) {
     });
 }
 
+// Открытие разделов с доп инфой
 document.querySelectorAll('.topic-button').forEach(button => {
     button.addEventListener('click', () => {
         const category = button.dataset.topicCategory;
@@ -177,26 +194,19 @@ document.querySelectorAll('.topic-button').forEach(button => {
     });
 });
 
-const translatorInput = $("translator-input");
-const translateBtn = $("translate-btn");
-const translatorResult = $("translator-result");
-const langSelect = $("lang-select");
+// Переводчик
 async function translateText() {
     const text = translatorInput.value.trim();
     const langPair = langSelect.value;
     const [from, to] = langPair.split('|');
-
     if (!text) {
         translatorResult.textContent = "Please, write any text...";
         return;
     }
-
     translatorResult.textContent = "Translating...";
-
     try {
         const response = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=${langPair}`);
         const data = await response.json();
-
         if (data.responseData) {
             const translatedText = data.responseData.translatedText;
             translatorResult.innerHTML = `<strong>Result:</strong><br>${translatedText}`;
@@ -209,7 +219,6 @@ async function translateText() {
             voiceBtn.onclick = () => {
                 let speechText = translatedText;
                 let speechLang = 'ru-RU';
-
                 if (to === 'tt') {
                     speechText = tatToRus(translatedText);
                     speechLang = 'ru-RU';
@@ -218,10 +227,8 @@ async function translateText() {
                 } else if (to === 'ru') {
                     speechLang = 'ru-RU';
                 }
-                
                 speakText(speechText, speechLang);
             };
-            
             translatorResult.appendChild(voiceBtn);
         } else {
             translatorResult.textContent = "Error of translating. Please try again later.";
@@ -232,6 +239,7 @@ async function translateText() {
     }
 }
 
+// Обязательная фигня (ждёт загрузки всего хтмл файла)
 document.addEventListener('DOMContentLoaded', () => {
     const translateBtn = document.getElementById("translate-btn");
     if (translateBtn) {
