@@ -1,0 +1,45 @@
+name: Get Profile Data
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: get-profile-data
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check profile data
+        id: check
+        env:
+          GH_TOKEN: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
+          GH_USER: Xviizyk
+        run: bash tools/check-profile-data.sh
+
+      - uses: actions/setup-node@v4
+        if: steps.check.outputs.skip == 'false'
+        with:
+          node-version: 20
+
+      - name: Generate data
+        if: steps.check.outputs.skip == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: Xviizyk
+          ACTIVITY_HASH: ${{ steps.check.outputs.activity_hash }}
+        run: node tools/get-profile-data.js
+
+      - name: Commit changes
+        if: steps.check.outputs.skip == 'false'
+        run: bash tools/commit-changes.sh

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Xviizyk</title>
+  <link rel="icon" href="https://github.com/Xviizyk.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<aside class="sidebar">
+  <div class="brand">
+    <span class="brand-mark" aria-hidden="true"></span>
+    <h1 class="name" data-i18n="xviizyk">Xviizyk</h1>
+  </div>
+
+  <nav class="tabs">
+    <button class="tab active" data-tab="activity">
+      <span class="icon icon-activity"></span>
+      <span data-i18n="tab_activity">Активность</span>
+    </button>
+    <button class="tab" data-tab="about">
+      <span class="icon icon-user"></span>
+      <span data-i18n="tab_about">Обо мне</span>
+    </button>
+    <button class="tab" data-tab="projects">
+      <span class="icon icon-folder"></span>
+      <span data-i18n="tab_projects">Проекты</span>
+    </button>
+    <button class="tab" data-tab="art">
+      <span class="icon icon-palette"></span>
+      <span data-i18n="tab_art">Художество</span>
+    </button>
+  </nav>
+
+  <footer class="sidebar-footer">
+    <div class="sidebar-actions">
+      <button class="theme-toggle" id="langToggle">RU</button>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="icon icon-theme"></span>
+      </button>
+    </div>
+    <span class="made-with">Made with nya!</span>
+  </footer>
+</aside>
+
+<main class="content">
+
+  <section class="panel active" data-panel="activity">
+    <div class="activity-hero">
+      <aside class="hero-profile">
+        <div class="avatar-ring">
+          <img class="avatar-big" id="avatar" src="https://github.com/Xviizyk.png" alt="Xviizyk">
+        </div>
+        <h2 class="profile-name">Xviizyk</h2>
+        <p class="profile-bio" id="profileBio">Loading...</p>
+      </aside>
+
+      <div class="hero-commits">
+        <header class="commits-head">
+          <h3 id="commitsTitle" data-i18n="recent_commits">Последние коммиты</h3>
+          <div class="commits-actions">
+            <button class="icon-btn" id="recentBtn" title="Back to recent">
+              <span class="icon icon-refresh"></span>
+            </button>
+            <a class="icon-btn" href="https://github.com/Xviizyk" target="_blank" rel="noopener">
+              <span class="icon icon-github"></span>
+            </a>
+          </div>
+        </header>
+        <ul class="commit-list" id="commitList">
+          <li class="commit-loading">Loading commits...</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="github-stats-grid">
+      <div class="gh-col">
+        <div class="gh-section">
+          <div class="gh-row"><span class="icon icon-clock"></span><span data-i18n="gh_joined">Присоединился</span><span id="gh-joined">...</span><span data-i18n="gh_years_ago">лет назад</span></div>
+          <div class="gh-row"><span class="icon icon-user"></span><span data-i18n="gh_followed_by">Подписчиков</span><strong id="gh-followers">...</strong></div>
+          <div class="gh-row"><span class="icon icon-folder"></span><span data-i18n="gh_contributed_to">Вклад в</span><strong id="gh-repos-count">...</strong><span data-i18n="gh_repos">репозиториев</span></div>
+        </div>
+        <div class="gh-section">
+          <h4 class="gh-title"><span class="icon icon-activity"></span><span data-i18n="gh_activity">Активность</span></h4>
+          <div class="gh-row"><span class="icon icon-commit"></span><strong id="gh-commits">...</strong><span data-i18n="gh_commits">Коммитов</span></div>
+          <div class="gh-row"><span class="icon icon-link"></span><strong id="gh-prs">...</strong><span data-i18n="gh_prs">Пулл-реквестов</span></div>
+          <div class="gh-row"><span class="icon icon-mail"></span><strong id="gh-issues">...</strong><span data-i18n="gh_issues">Ишью</span></div>
+        </div>
+      </div>
+      <div class="gh-col">
+        <div class="gh-section">
+          <h4 class="gh-title"><span class="icon icon-folder"></span><span data-i18n="gh_repos_title">Репозитории</span></h4>
+          <div class="gh-row"><span class="icon icon-star"></span><strong id="gh-stars">...</strong><span data-i18n="gh_stars">Звезд</span></div>
+          <div class="gh-row"><span class="icon icon-fork"></span><strong id="gh-forks">...</strong><span data-i18n="gh_forks">Форков</span></div>
+          <div class="gh-row"><span class="icon icon-eye"></span><strong id="gh-watchers">...</strong><span data-i18n="gh_watchers">Наблюдателей</span></div>
+          <div class="gh-row"><span class="icon icon-database"></span><strong id="gh-size">...</strong><span data-i18n="gh_size">Размер</span></div>
+        </div>
+        <div class="gh-section">
+          <h4 class="gh-title"><span class="icon icon-chart"></span><span data-i18n="gh_languages">Языки</span></h4>
+          <p class="gh-subtitle" data-i18n="gh_most_used">Самые используемые</p>
+          <div class="lang-bar" id="lang-bar"></div>
+          <div class="lang-list" id="lang-list"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="graph-block">
+      <header class="graph-head">
+        <h3 data-i18n="graph_title">Граф активности</h3>
+      </header>
+      <div class="graph-wrap">
+        <div class="graph" id="graph"><div class="commit-loading">Loading graph...</div></div>
+      </div>
+      <div class="graph-legend">
+        <span data-i18n="graph_less">Меньше</span>
+        <span class="legend-cell level-0"></span><span class="legend-cell level-1"></span>
+        <span class="legend-cell level-2"></span><span class="legend-cell level-3"></span>
+        <span class="legend-cell level-4"></span>
+        <span data-i18n="graph_more">Больше</span>
+      </div>
+      <div class="streak-stats">
+        <h4 class="gh-title"><span class="icon icon-chart"></span><span data-i18n="gh_calendar">Календарь</span></h4>
+        <div class="streak-row">
+          <div class="streak-item"><span data-i18n="gh_best_streak">Лучшая серия</span>: <strong id="streak-best">0</strong> <span data-i18n="gh_days">дней</span></div>
+          <div class="streak-item"><span data-i18n="gh_highest_day">Максимум за день</span>: <strong id="streak-highest">0</strong></div>
+          <div class="streak-item"><span data-i18n="gh_average_day">В среднем</span>: <strong id="streak-average">0</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" data-panel="about">
+    <div class="panel-head"><span class="label">02 / About</span></div>
+    <div class="about-content">
+      <div class="about-lead-block">
+        <h2 class="about-title" data-i18n="about_title">Это - Я, ИксВизик!</h2>
+        <h3 class="about-subtitle" data-i18n="about_subtitle">Приветик!</h3>
+        <p class="about-text" data-i18n="about_p1"></p>
+        <p class="about-text" data-i18n="about_p2"></p>
+        <p class="about-text" data-i18n="about_p3"></p>
+        <p class="about-text" data-i18n="about_p4"></p>
+        <p class="about-text" data-i18n="about_p5"></p>
+        <p class="about-text" data-i18n="about_p6"></p>
+        <p class="about-text" data-i18n="about_p7"></p>
+        <p class="about-text" data-i18n="about_p8"></p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon"><span class="icon icon-chart"></span></div>
+          <h3 class="about-card-title" data-i18n="about_skills">Скилы</h3>
+          <div class="skill-tags">
+            <span class="skill">C++</span>
+            <span class="skill">C#</span>
+            <span class="skill">Python</span>
+            <span class="skill">Java</span>
+            <span class="skill">Design</span>
+            <span class="skill">Art</span>
+            <span class="skill">Gamedesign</span>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="about-icon"><span class="icon icon-link"></span></div>
+          <h3 class="about-card-title" data-i18n="about_links">Ссылки</h3>
+          <ul class="about-links">
+            <li><a href="https://discord.com/users/726043561694461984" target="_blank"><span class="icon icon-discord"></span><span>Xviizyk</span></a></li>
+            <li><a href="https://github.com/Xviizyk" target="_blank" rel="noopener"><span class="icon icon-github"></span><span>Xviizyk</span></a></li>
+            <li><a href="mailto:Xviizyk@gmail.com"><span class="icon icon-mail"></span><span>Xviizyk@gmail.com</span></a></li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <div class="about-icon"><span class="icon icon-engine"></span></div>
+          <h3 class="about-card-title" data-i18n="about_engines">Движки</h3>
+          <div class="engines-skills">
+            <span class="skill">Godot</span>
+            <span class="skill">Unreal Engine</span>
+            <span class="skill">Unity</span>
+          </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" data-panel="projects">
+    <div class="panel-head"><span class="label">03 / Projects</span></div>
+    <div class="project-grid" id="projectGrid">
+      <div class="commit-loading">Loading projects...</div>
+    </div>
+  </section>
+
+  <section class="panel" data-panel="art">
+    <div class="panel-head"><span class="label">04 / Art</span></div>
+    <div class="art-gallery" id="artGallery"></div>
+  </section>
+
+</main>
+
+<script src="javascript/i18n.js"></script>
+<script src="javascript/script.js"></script>
+</body>
+</html>
