@@ -1,5 +1,5 @@
 {
-  "activity_hash": "3731cb11f378e60c64b3dfc1f0869fea1669a860d64907391b57c3de0fa85fcb",
+  "activity_hash": "d69a56757e45cf7770c09fe2bd32bd83421f44f39ec29aecee4d33919ee3dae8",
   "last_commit_sha": "d4eb2e4c2fbe811385e61eb5758913b8322f3568",
   "profile": {
     "login": "Xviizyk",
@@ -45,7 +45,7 @@
     "stars": 2,
     "forks": 0,
     "watchers": 2,
-    "size": 11570,
+    "size": 11593,
     "prs": 1,
     "issues": 0,
     "commits": 74
@@ -924,13 +924,13 @@
       "deployments_url": "https://api.github.com/repos/Xviizyk/Xviizyk.github.io/deployments",
       "created_at": "2025-10-28T06:11:45Z",
       "updated_at": "2026-11-21T17:36:49Z",
-      "pushed_at": "2026-11-24T21:06:45Z",
+      "pushed_at": "2026-11-25T04:08:05Z",
       "git_url": "git://github.com/Xviizyk/Xviizyk.github.io.git",
       "ssh_url": "git@github.com:Xviizyk/Xviizyk.github.io.git",
       "clone_url": "https://github.com/Xviizyk/Xviizyk.github.io.git",
       "svn_url": "https://github.com/Xviizyk/Xviizyk.github.io",
       "homepage": "https://xviizyk.github.io/",
-      "size": 83,
+      "size": 106,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "JavaScript",
@@ -978,13 +978,13 @@
     "Shell": 8331,
     "Batchfile": 4082,
     "JavaScript": 592245,
-    "CSS": 16634,
-    "HTML": 20343,
     "Go": 270786,
     "PowerShell": 11522,
     "C++": 119558,
-    "CMake": 65740,
-    "Java": 3299
+    "HTML": 20343,
+    "Java": 3299,
+    "CSS": 16634,
+    "CMake": 65740
   },
   "recent_commits": [
     {
@@ -3506,13 +3506,13 @@
         "deployments_url": "https://api.github.com/repos/Xviizyk/Xviizyk.github.io/deployments",
         "created_at": "2025-10-28T06:11:45Z",
         "updated_at": "2026-11-21T17:36:49Z",
-        "pushed_at": "2026-11-24T21:06:45Z",
+        "pushed_at": "2026-11-25T04:08:05Z",
         "git_url": "git://github.com/Xviizyk/Xviizyk.github.io.git",
         "ssh_url": "git@github.com:Xviizyk/Xviizyk.github.io.git",
         "clone_url": "https://github.com/Xviizyk/Xviizyk.github.io.git",
         "svn_url": "https://github.com/Xviizyk/Xviizyk.github.io",
         "homepage": "https://xviizyk.github.io/",
-        "size": 83,
+        "size": 106,
         "stargazers_count": 0,
         "watchers_count": 0,
         "language": "JavaScript",
@@ -3554,6 +3554,88 @@
         }
       },
       "commits": [
+        {
+          "sha": "298f206e07ac94011942943d2a4140d89e871e66",
+          "node_id": "C_kwDOQKhFy9oAKDI5OGYyMDZlMDdhYzk0MDExOTQyOTQzZDJhNDE0MGQ4OWU4NzFlNjY",
+          "commit": {
+            "author": {
+              "name": "github-actions[bot]",
+              "email": "41898282+github-actions[bot]@users.noreply.github.com",
+              "date": "2026-11-25T04:08:04Z"
+            },
+            "committer": {
+              "name": "github-actions[bot]",
+              "email": "41898282+github-actions[bot]@users.noreply.github.com",
+              "date": "2026-11-25T04:08:04Z"
+            },
+            "message": "chore: update data.json",
+            "tree": {
+              "sha": "35be816bd03d7ab5302cf11cd0d3a0ff461084bf",
+              "url": "https://api.github.com/repos/Xviizyk/Xviizyk.github.io/git/trees/35be816bd03d7ab5302cf11cd0d3a0ff461084bf"
+            },
+            "url": "https://api.github.com/repos/Xviizyk/Xviizyk.github.io/git/commits/298f206e07ac94011942943d2a4140d89e871e66",
+            "comment_count": 0,
+            "verification": {
+              "verified": false,
+              "reason": "unsigned",
+              "signature": null,
+              "payload": null,
+              "verified_at": null
+            }
+          },
+          "url": "https://api.github.com/repos/Xviizyk/Xviizyk.github.io/commits/298f206e07ac94011942943d2a4140d89e871e66",
+          "html_url": "https://github.com/Xviizyk/Xviizyk.github.io/commit/298f206e07ac94011942943d2a4140d89e871e66",
+          "comments_url": "https://api.github.com/repos/Xviizyk/Xviizyk.github.io/commits/298f206e07ac94011942943d2a4140d89e871e66/comments",
+          "author": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "committer": {
+            "login": "github-actions[bot]",
+            "id": 41898282,
+            "node_id": "MDM6Qm90NDE4OTgyODI=",
+            "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+            "html_url": "https://github.com/apps/github-actions",
+            "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+            "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+            "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+            "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+            "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+            "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+            "type": "Bot",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          "parents": [
+            {
+              "sha": "a45de8d95500af17d61a79aa9a4725793b280785",
+              "url": "https://api.github.com/repos/Xviizyk/Xviizyk.github.io/commits/a45de8d95500af17d61a79aa9a4725793b280785",
+              "html_url": "https://github.com/Xviizyk/Xviizyk.github.io/commit/a45de8d95500af17d61a79aa9a4725793b280785"
+            }
+          ]
+        },
         {
           "sha": "a45de8d95500af17d61a79aa9a4725793b280785",
           "node_id": "C_kwDOQKhFy9oAKGE0NWRlOGQ5NTUwMGFmMTdkNjFhNzlhYTlhNDcyNTc5M2IyODA3ODU",
@@ -3881,82 +3963,6 @@
               "html_url": "https://github.com/Xviizyk/Xviizyk.github.io/commit/d4eb2e4c2fbe811385e61eb5758913b8322f3568"
             }
           ]
-        },
-        {
-          "sha": "d4eb2e4c2fbe811385e61eb5758913b8322f3568",
-          "node_id": "C_kwDOQKhFy9oAKGQ0ZWIyZTRjMmZiZTgxMTM4NWU2MWViNTc1ODkxM2I4MzIyZjM1Njg",
-          "commit": {
-            "author": {
-              "name": "Xviizyk",
-              "email": "artursarture@gmail.com",
-              "date": "2026-11-18T16:55:28Z"
-            },
-            "committer": {
-              "name": "Xviizyk",
-              "email": "artursarture@gmail.com",
-              "date": "2026-11-23T17:43:57Z"
-            },
-            "message": "Initial commit",
-            "tree": {
-              "sha": "d701fbfd1be47ab6549d80e25187a94d7ce25012",
-              "url": "https://api.github.com/repos/Xviizyk/Xviizyk.github.io/git/trees/d701fbfd1be47ab6549d80e25187a94d7ce25012"
-            },
-            "url": "https://api.github.com/repos/Xviizyk/Xviizyk.github.io/git/commits/d4eb2e4c2fbe811385e61eb5758913b8322f3568",
-            "comment_count": 0,
-            "verification": {
-              "verified": false,
-              "reason": "unsigned",
-              "signature": null,
-              "payload": null,
-              "verified_at": null
-            }
-          },
-          "url": "https://api.github.com/repos/Xviizyk/Xviizyk.github.io/commits/d4eb2e4c2fbe811385e61eb5758913b8322f3568",
-          "html_url": "https://github.com/Xviizyk/Xviizyk.github.io/commit/d4eb2e4c2fbe811385e61eb5758913b8322f3568",
-          "comments_url": "https://api.github.com/repos/Xviizyk/Xviizyk.github.io/commits/d4eb2e4c2fbe811385e61eb5758913b8322f3568/comments",
-          "author": {
-            "login": "Xviizyk",
-            "id": 207148662,
-            "node_id": "U_kgDODFjWdg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/207148662?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Xviizyk",
-            "html_url": "https://github.com/Xviizyk",
-            "followers_url": "https://api.github.com/users/Xviizyk/followers",
-            "following_url": "https://api.github.com/users/Xviizyk/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Xviizyk/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Xviizyk/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Xviizyk/subscriptions",
-            "organizations_url": "https://api.github.com/users/Xviizyk/orgs",
-            "repos_url": "https://api.github.com/users/Xviizyk/repos",
-            "events_url": "https://api.github.com/users/Xviizyk/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Xviizyk/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "committer": {
-            "login": "Xviizyk",
-            "id": 207148662,
-            "node_id": "U_kgDODFjWdg",
-            "avatar_url": "https://avatars.githubusercontent.com/u/207148662?v=4",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/Xviizyk",
-            "html_url": "https://github.com/Xviizyk",
-            "followers_url": "https://api.github.com/users/Xviizyk/followers",
-            "following_url": "https://api.github.com/users/Xviizyk/following{/other_user}",
-            "gists_url": "https://api.github.com/users/Xviizyk/gists{/gist_id}",
-            "starred_url": "https://api.github.com/users/Xviizyk/starred{/owner}{/repo}",
-            "subscriptions_url": "https://api.github.com/users/Xviizyk/subscriptions",
-            "organizations_url": "https://api.github.com/users/Xviizyk/orgs",
-            "repos_url": "https://api.github.com/users/Xviizyk/repos",
-            "events_url": "https://api.github.com/users/Xviizyk/events{/privacy}",
-            "received_events_url": "https://api.github.com/users/Xviizyk/received_events",
-            "type": "User",
-            "user_view_type": "public",
-            "site_admin": false
-          },
-          "parents": []
         }
       ]
     },
@@ -6434,5 +6440,5 @@
       ]
     }
   ],
-  "updated_at": "2026-11-25T04:08:04.065Z"
+  "updated_at": "2026-11-25T14:14:44.152Z"
 }
